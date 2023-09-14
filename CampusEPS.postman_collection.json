@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "ef40606b-4580-4565-9f86-4a75750e3838",
+		"name": "CampusEPS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28089201",
+		"_collection_link": "https://grey-astronaut-338473.postman.co/workspace/Campus~257b7832-8740-4d4f-be7f-c0f79ce732d1/collection/28089201-ef40606b-4580-4565-9f86-4a75750e3838?action=share&source=collection_link&creator=28089201"
+	},
+	"item": [
+		{
+			"name": "GET - endpoint 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:6996/users/allAlphUsers"
+			},
+			"response": []
+		},
+		{
+			"name": "GET - endpoint 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:6996/specialties/allCardio"
+			},
+			"response": []
+		},
+		{
+			"name": "GET - endpoint 6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:6996/appointments/appSept14"
+			},
+			"response": []
+		},
+		{
+			"name": "GET - endpoint 7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:6996/medics/medAndCons"
+			},
+			"response": []
+		},
+		{
+			"name": "GET - endpoint 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:6996/appointments/allApp1Day"
+			},
+			"response": []
+		},
+		{
+			"name": "GET - endpoint 12",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:6996/appointments/rejAppSept"
+			},
+			"response": []
+		}
+	]
+}
